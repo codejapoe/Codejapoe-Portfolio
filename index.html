@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codejapoe</title>
+    <link rel="shortcut icon" href="./assets/img/codejapoe.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <meta property="og:url" content="http://codejapoe.xyz" />
+    <meta property="og:title" content="Codejapoe's Personal Portfolio" />
+    <meta property="og:description" content="I invite you to explore my digital sanctuary, where creativity, passion, and innovation converge. This portfolio website serves as a window into my world, showcasing a curated collection of my finest work and a glimpse into my professional journey." />
+    <meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/jay-saunik.appspot.com/o/profile.jpg?alt=media&token=1ff0c196-b25a-443f-8441-57d11f6081be" />
+  </head>
+
+  <body>
+    <main>
+      <!-- Sidebar -->
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img src="./assets/img/codejapoe.png" alt="Codejapoe" width="80"/>
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Codejapoe">Codejapoe</h1>
+
+            <p class="title">Programmer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto: codejapoe@gmail.com" target="_blank" class="contact-link">codejapoe@gmail.com</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel: +959954225647" target="_blank" class="contact-link">09-954225647</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="2007-02-25">Feb 25, 2007</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Yangon, Myanmar</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="https://www.facebook.com/codejapoe" target="_blank" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://github.com/codejapoe" target="_blank" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://instagram.com/codejapoe" target="_blank" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!-- Main-content -->
+
+      <div class="main-content">
+        <!-- Navbar -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" onclick="setActive();" data-nav-link>Projects</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" onclick="setActive();" data-nav-link>Content</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Merch</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- About -->
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+                I am a dedicated programmer with a penchant for pushing boundaries and crafting immersive experiences. With a keen eye for detail and a drive for excellence, I have honed my skills in Programming, and I am on a perpetual quest for knowledge and self-improvement.
+            </p>
+          </section>
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
+
+                  <p class="service-item-text">
+                    I code the modern web apps and websites in popular web frameworks.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">IOT development</h4>
+
+                  <p class="service-item-text">
+                    I code the IOT hardware devices with Raspberry Pi.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Content creation</h4>
+
+                  <p class="service-item-text">
+                    I make volgs, blogs and articles in high quality.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Programming</h4>
+
+                  <p class="service-item-text">
+                    I learn programming languages and create complex programs.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!-- Testimonials -->
+
+          <section class="testimonials">
+            <h3 class="h3 testimonials-title">Whom I've worked with</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/img/kokooo.png"
+                      alt="Ko Ko Oo"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Ko Ko Oo
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Ko Ko Oo is a programmer and he is also the Co-Founder of getEdu and Tee Htwin Organisations. We have worked together in getEdu project.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/img/kaunghlansoe.png"
+                      alt="Kaung Hlan Soe"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >Kaung Hlan Soe
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Kaung Hlan Soe is a content creator and graphic designer. He is also the Co-Founder of getEdu and Tee Htwin Organisations. We used to work together in front-end developement of getEdu project.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/img/aungkaungmyatnaing.png"
+                      alt="Aung Kaung Myat Naing"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Aung Kaung Myat Naing
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Aung Kaung Myat Naing is a programmer and we have collaborated in a few projects. Here is his statement:<br>"Aung Kaung Khant is a collaborative team player who contributes to a positive work environment. During our time working together for a project, he demonstrated his ability to design and develop complex web projects. I highly recommend Aung Kaung Khant for any project which requires a skillful and dedicated web developer."
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/img/aungkaungmyatnaing.png"
+                    alt="Aung Kaung Myat Naing"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Aung Kaung Myat Naing</h4>
+
+                <time datetime="2023-11-20">Nov 20, 2023</time>
+
+                <div data-modal-text>
+                  <p>
+                    Aung Kaung Myat Naing is a programmer and we have collaborated in a few projects. Here is his review: "Aung Kaung Khant is a collaborative team player who contributes to a positive work environment. During our time working together for a project, he demonstrated his ability to design and develop complex web projects. I highly recommend Aung Kaung Khant for any project which requires a skillful and dedicated web developer."
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+        </article>
+
+        <!-- Resume -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Internation GCSE
+                </h4>
+
+                <span>2021 - 2023</span>
+
+                <p class="timeline-text">
+                  Completed IGCSE O-Level course taking these eight subjects: English Language B, Mathematics B, Pure Mathematics, Physics, Chemistry, Information and Communications Technology, Computer Science, and Accounting
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  National Cyber City
+                </h4>
+
+                <span>2020 - Present</span>
+
+                <p class="timeline-text">
+                  Studied and completed the following courses: Python Programming, Data Structures & Algorithms, Web Development, C/C++ Programming, and JavaSE Programming.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Basic Education Middle School No. (1) Dagon</h4>
+
+                <span>2012 - 2020</span>
+
+                <p class="timeline-text">
+                  completed my primary and secondary education, sang as the lead vocalist in the school performance for 2 times, and achieved one trophy.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="build-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Programmer</h4>
+
+                <span>2020 — Present</span>
+
+                <p class="timeline-text">
+                  I have developed many projects and programs in a few programming languages.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Co-Founder and Full-Stack Developer <span style="text-transform: none; color: white;">at getEdu Organisation</span></h4>
+
+                <span>2021 — 2022</span>
+
+                <p class="timeline-text">
+                  I had made UI/UX design, front-end development, and API for getEdu official website. I had also coded getEdu Community Bot (Telegram) and taught "Python Mobile App Development Crash Course" as an instructor.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">Programming Skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Python</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">C/C++</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">JavaScript</h5>
+                  <data value="50">50%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 50%"></div>
+                </div>
+              </li>
+            </ul>
+          </section><br>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">Other Skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Frameworks & Databases</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Graphic Design</h5>
+                  <data value="70">60%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Communication</h5>
+                  <data value="80">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!-- Projects -->
+
+        <article class="portfolio" data-page="projects">
+          <header>
+            <h2 class="h2 article-title">Projects</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web development</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Applications</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>IOT development</button>
+              </li>
+              
+              <li class="filter-item">
+                <button data-filter-btn>Programming</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web Development</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>IOT development</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Programming</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li class="project-item" data-filter-item data-category="web development">
+                <a target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/img/pj-next.jpg"
+                      alt="project-next"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Project Next</h3>
+                  <p class="project-category">Under development<br>Developers: ["Codejapoe", null]<br>Release date: Unknown</p>
+                    
+                </a>
+              </li>
+
+              <li class="project-item" data-filter-item data-category="iot development">
+                <a href="https://facebook.com/media/set/?vanity=codejapoe&set=a.1074341620205469" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/img/raspberry-pi.jpg"
+                      alt="raspberry-pi"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">IOT Development with Raspberry Pi</h3>
+
+                  <p class="project-category">This is a video series containing the records of my IOT developement journey.<br>Release date: Aug 10, 2023</p>
+                </a>
+              </li>
+
+              <li class="project-item" data-filter-item data-category="programming">
+                <a href="https://github.com/codejapoe/C-Slash" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/img/c-slash.jpg"
+                      alt="c-slash"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">C-Slash: Tiny Programming Language</h3>
+
+                  <p class="project-category">C-Slash (C/) is a tiny open-source programming language developed in C++. Currently, a few keywords are only available.<br>Started on: Sep 25, 2023<br>Release date: Sep 27, 2023</p>
+                </a>
+              </li>
+
+              <li class="project-item" data-filter-item data-category="web development">
+                <a href="https://jay-saunik.netlify.app/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/img/jay-saunik.png"
+                      alt="jay saunik"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Jay Saunik: Personal Portfolio</h3>
+
+                  <p class="project-category">Version 1.0 of Jay Saunik's personal portfolio website (saunik.net). Source code is available on Codejapoe's Github.<br>Release Date: Oct 27, 2022</p>
+                </a>
+              </li>
+
+              <li class="project-item" data-filter-item data-category="applications">
+                <a href="https://nullbytes.pythonanywhere.com/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/img/null-bytes.png"
+                      alt="null-bytes"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Null-Bytes Database</h3>
+
+                  <p class="project-category">Null-Bytes is a document-oriented, NoSQL database program. Null-Bytes uses JSON-like collections. This project is created on AVL Data Structure and implemented in Python.<br>Release date: Jun 28, 2022</p>
+                </a>
+              </li>
+
+              <li class="project-item" data-filter-item data-category="applications">
+                <a href="https://null-bytes-docs.web.app/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/img/null-bytes-api.png"
+                      alt="null-bytes api"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Null-Bytes API</h3>
+
+                  <p class="project-category">The API used to connect to the Null-Bytes Databases for CRUD operations. Source code is available on Codejapoe's Github.<br>Release date: Jun 28, 2022</p>
+                </a>
+              </li>
+
+              <li class="project-item" data-filter-item data-category="web development">
+                <a href="https://facebook-metaverse.web.app/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/img/facebook.png"
+                      alt="facebook-form"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Facebook Login Form: Phishing Website</h3>
+
+                  <p class="project-category">This is a phishing website for personal attack. To prevent phishing attack, add two factor authentication to your account.<br>Release date: Mar 13, 2022</p>
+                </a>
+              </li>
+
+              <li class="project-item" data-filter-item data-category="applications">
+                <a href="https://t.me/codejapoebot" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/img/eng-mm-telegram-bot.png"
+                      alt="eng-mm-telegram-bot"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Eng-Mm Telegram Dictionary Bot</h3>
+
+                  <p class="project-category">A project collaboration. To run the bot, install the "requirements.txt" file and run the "main.py" file. Source code is available on Codejapoe's Github.<br>Developers: ["Codejapoe", "Coding with KKO"]<br>Release date: Sep 17, 2021</p>
+                </a>
+              </li>
+
+              <li class="project-item" data-filter-item data-category="applications">
+                <a href="https://diamond-prince-2003.web.app/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/img/dprince.png"
+                      alt="dprince"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">D-Prince: Inventory Management Website</h3>
+
+                  <p class="project-category">This is just a demo project - user can perform CRUD Operations: Create, Read, Update, Delete. Unfortunately, this project is not for public audience as this is a fictional application concept.<br>Release date: Jan 05, 2022</p>
+                </a>
+              </li>
+              
+              <li class="project-item" data-filter-item data-category="applications">
+                <a href="https://raincloudmyanmar.pythonanywhere.com/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/img/rain-cloud.png"
+                      alt="rain-cloud"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Rain-Cloud: E-Learning Cloud Platform</h3>
+
+                  <p class="project-category">Rain-Cloud is an E-Learning cloud platform made for teachers and students.<br>Release date: Oct 15, 2021</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!-- Content -->
+        <article class="blog" data-page="content">
+          <header>
+            <h2 class="h2 article-title">Content</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Blogs</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Articles</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Volgs</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Tech reviews</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Blogs</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Articles</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Vlogs</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Tech reviews</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="blog-posts-list">
+              <li class="project-item" data-filter-item data-category="blogs">
+                <a href="https://facebook.com/photo.php?fbid=1027444681561830&set=a.117446942561613&type=3&ref=embed_post&_rdc=1&_rdr" target="_blank">
+                  <figure class="project-img blog-banner-box">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/img/mojo.jpg"
+                      alt="Mojo"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Programming Language</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2023-05-14">May 14, 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Mojo 🔥
+                    </h3>
+
+                    <p class="blog-text">
+                      ကျနော် ဟိုတလောက‌ထွက်ထားတဲ့ programming language အသစ် mojoကို စမ်းကြည့်ချင်တာနဲ့ လျှောက်ထားတာ မနေ့က email ရတာနဲ့ ကလိကြည့်တယ်။ (official release တော့မလာသေးဘူး)
+Python နဲ့တော့syntax နည်းနည်းဆင်တယ်။ C ထက်တော့မြန်တယ်။ (သူပြောတာပါ။)
+<br><br>
+So, what's new?<br>
+- JavaScript လိုမျိုး let တွေ var တွေနဲ့ type ကိုပါ ကြေညာရတဲ့ keyword ပါလာတယ်။<br>
+- Cလိုမျိုး pointer ပါလာတယ်။<br>
+- Struct keyword ပါလာတယ်။ (python classes တွေထက် complie time မှာပိုမြန်တယ်လို့တော့ဖော်ပြထားတယ်။)<br>
+- def အစား fn သုံးထားတယ်။<br>
+- Python code ရေးလို့ရမယ်။<br>
+- Python module တွေခေါ်သုံးလို့ရမယ်။<br><br>
+
+တချို့ဟာလေးတွေက bug လိုမျိုးတွေဖြစ်နေတာတွေရှိတယ်။ အချိန်မရတဲ့အတွက် နည်းနည်းပါးပါးပဲစမ်းထားပါတယ်။<br>
+သိချင်တဲ့မေးခွန်းနဲ့ syntax တွေကို အောက်က website မှာသွားလေ့လာလို့ရပါတယ်ဗျ။<br><br>
+Docs: https://docs.modular.com/<br>
+FAQ: https://docs.modular.com/mojo/faq.html
+                    </p>
+                  </div>
+                </a>
+              </li>
+              
+              <li class="project-item" data-filter-item data-category="blogs">
+                <a href="https://facebook.com/photo/?fbid=876922103280756&set=a.117446942561613" target="_blank">
+                  <figure class="project-img blog-banner-box">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/img/ubuntumate.jpg"
+                      alt="Ubuntu-Mate"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Docker</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-09-22">Sep 22, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Accessing my Operating System via web browser
+                    </h3>
+
+                    <p class="blog-text">
+                      [English Version]<br>I used Docker and installed Portainer to control the Docker with Web GUI. Then, I deployed Ubuntu-Mate on stack using LinuxServer/Webtop and created a container. You can use 'localtunnel' (NodeJS library) to host your OS on your computer and to access from anywhere.<br><br>[Myanmar Version]<br>1) Portainerကို dockerသုံးပြီးသွင်းပါ။
+                      ဒါက Docker ကို Web ကနေ ထိန်းချုပ်ဖို့ပါ။<br>
+                      2) Container တခုဆောက်ပါ။ LinuxServer/Webtop ကိုသုံးပြီး Ubuntu-Mate ကို stackပေါ်တင်ပြီး deploy လုပ်ပါ။<br>
+                      Optional - ဒါက local အတွက်ပါ။ ကြိုက်‌တဲ့နေရာကနေ accessလုပ်ချင်ရင်တော့ localtunnel, ngrokတို့လို internetပေါ်ကို forwardလုပ်တဲ့software သုံးပေးပါ။ <br>
+                      အပေါ်ကအဆင့်တွေမရဘူးဆိုရင်တော့ Youtube tutorialတွေကြည့်လုပ်လို့ရပါတယ်။ Windows တို့ တခြားLinux Distroတွေသွင်းနည်းလဲရှိပါသေးတယ်။ တခုနဲ့တခုကမတူပါဘူး။ ပြီးတော့ ကိုယ် hostထားတဲ့ စက်ရဲ့ specs အပေါ်မူတည်ပြီး မြန်သင့်ရင်မြန်ပါလိမ့်မယ်။
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="project-item" data-filter-item data-category="tech reviews">
+                <a href="https://web.facebook.com/100028889234315/videos/563535335390515/" target="_blank">
+                  <figure class="project-img blog-banner-box">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/img/nothing-phone-1.webp"
+                      alt="Nothing Phone (1) Review"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Mobile Phone</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2023-01-15">Jan 15, 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Nothing Phone (1) Review - Worth to buy?</h3>
+
+                    <p class="blog-text">
+                      Nothing OS 1.5 ကိုတော့ ဒီလထဲမှာ release လုပ်မှာဖြစ်ပြီး features အသစ်တွေအကြောင်းကိုတော့ အောက်က trailer လေးမှာသွားကြည့်လို့ရပါတယ်။<br><br>
+Stream here - https://youtu.be/xfY1Spk-8dU<br>Watch it on Facebook.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="project-item" data-filter-item data-category="volgs">
+                <a href="https://facebook.com/100028889234315/videos/848081019750630/" target="_blank">
+                  <figure class="project-img blog-banner-box">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/img/nothing-phone-1-pack.jpg"
+                      alt="Nothing Phone (1) Unboxing + First Look"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Mobile Phone</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-12-28">Dec 28, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Nothing Phone (1) Unboxing + First Look</h3>
+
+                    <p class="blog-text">
+                      Unbox လုပ်ပြတာဖြစ်လို့ သူ့ရဲ့ features တွေအကုန်လုံးကိုမပြောလိုက်ရဘူး။ အဲ့တော့ features တွေအကြောင်းပြောပြဖို့ Nothing Phone (1) Review မှာကြည့်ပေးပါ။<br><br>Watch it on Facebook.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="project-item" data-filter-item data-category="articles">
+                <a href="https://web.facebook.com/photo/?fbid=884768769162756&set=a.117446942561613" target="_blank">
+                  <figure class="project-img blog-banner-box">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/img/linux-diagram.jpg"
+                      alt="Linux"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Operating System</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-10-02">Oct 02, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Linux explained on point (Linux ကိုကြားသာကြားဖူးပြီး မသိသူများအတွက် Linux အကြောင်း တစေ့တစောင်း)</h3>
+
+                    <p class="blog-text">
+First Layer - Linux Kernel<br>
+Diagram ထဲမှာပါတဲ့ ပထမ layer ကတော့ ကျနော်တို့သိတဲ့ Linux ဆိုတာဖြစ်ပါတယ်။ သူကတော့ kernel ဖြစ်ပြီး operating system ကို boot လုပ်ဖို့ ကူညီပေးတာဖြစ်ပါတယ်။ Hardware နဲ့ Software ကိုချိတ်ဆက်ပြီးကိုင်တွယ်လို့ရသွားမှာပါ။
+<br><br>
+Second Layer - Package Management <br>
+ပုံထဲမှာပြထားတဲ့ Debian, Arch Linux, Redhat တွေကလဲ Distrobution တွေထဲမှာပါ ပါတယ်။ ဒါပေမယ့် သူတို့မှာက ကိုယ်ပိုင် package management system ရှိပါတယ်။ system တခုစီမှာ မတူညီတဲ့ file extension တွေနဲ့စတဲ့ software packages (ie. .deb, .rpm, ...) တွေ run လို့ရပါတယ်။ ဘာနဲ့တူလဲဆိုတော့ Windows မှာ .exe file run လို့ရတာနဲ့သွားတူပါတယ်။ အဲ့အတိုင်းပဲ Ubuntu တို့မှာဆိုရင် .deb file run လို့ရပါတယ်။ အဲ့ဒီ software package တွေသွင်းဖို့၊ ဖျက်ဖို့တွေကျတော့လဲ package manager (ie. yum, apt, dpkg, ...) ဆိုပြီး ထပ်ခွဲထားတာရှိသေးပါသေးတယ်။
+<br><br>
+Third Layer - Distrobutions<br>
+တတိယ level က linux distro တွေကတော့ ဒုတိယ level ကိုအခြေခံပြီးဆောက်ထားတာပါ။ ဒါပေမယ့် UI တွေကွဲသွားတာနဲ့အမျှ distro တွေကွာသွားပါတယ်။ Features တွေလဲနည်းနည်းစီကွဲသွားပါတယ်။
+<br><br>
+Forth Layer - Flavours<br>
+နောက်ဆုံး level ကတော့ third layer ကိုထပ်အခြေခံပြီး ဆောက်ထားတာပါ။ Flavour တခုစီမှာ မတူညီတဲ့ Desktop Environment (ie. Gnome, KDE plasma, ...) တွေသုံးထားတာပါ။ User ကတော့ ကိုယ်ကြိုက်တဲ့ UI တွေကိုသုံးပိုင်ခွင့်ရသွားပါမယ်။
+<br><br>
+ပုံထဲမှာတော့ sample အနေနဲ့ နားလည်ဖို့ပဲ ဆွဲထားတာမို့လို့ အများကြီးမထည့်ထားပါဘူးခင်ဗျာ။ Distro တိုင်းကတော့ ကိုယ့်စိတ်ကြိုက် customize လုပ်ပြီးသုံးရင်ပိုကောင်းပါတယ်ခင်ဗျာ။
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="project-item" data-filter-item data-category="blogs">
+                <a href="https://facebook.com/codejapoe/posts/772290983743869?ref=embed_post&_rdc=1&_rdr" target="_blank">
+                  <figure class="project-img blog-banner-box">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/img/google-colab.png"
+                      alt="Google Colab"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Google app</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-04-13">Apr 13, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Google Colab</h3>
+
+                    <p class="blog-text">
+                      Python မှာnumpy လို libraryတွေ develop လုပ်ချင်ရင်သုံးလို့ရတယ်။ Linux commands တွေပါသုံးလို့ရတယ်။ Features တွေက Jupyter Notebook နဲ့ဆင်တယ်လို့ပြောလို့ရလောက်တယ်။ Jupter Notebook မသွင်းချင်ရင် တိုက်ရိုက် web browser တဆင့်လေ့လာလို့ရတော့အဆင်ပြေတယ်။ Python file ကို Android App ပြောင်းတဲ့ချိန်မှာလဲ သုံးကြတယ်။
+Sample Data တွေကိုလဲ အဆင်သင့်ပေးထားတော့လေ့လာရတာအဆင်ပြေတယ်။အဲ့တော့ ကိုယ်တိုင်သာ မွှေကြည့်ဖို့အကြံပေးပါတယ်။<br><br>
+Website: https://colab.research.google.com/
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!-- Merch -->
+        <article data-page="merch">
+          <header>
+            <h2 class="h2 article-title">Merch</h2>
+          </header>
+
+          <p style="color: white;">Own designs created by Codejapoe. Free to copy and modify.</p><br>
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="merch-post-item">
+                <a>
+                  <figure class="merch-banner-box">
+                    <img
+                      src="./assets/img/codejapoe-tee.jpg"
+                      alt="Codejapoe's Merch"
+                      loading="lazy"
+                    />
+                  </figure>
+  
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Dark mode</p>
+  
+                      <span class="dot"></span>
+  
+                      <time datetime="2023-11-11">Nov 11, 2023</time>
+                    </div>
+  
+                    <h3 class="h3 blog-item-title">Codejapoe's Merch</h3>
+  
+                    <p class="blog-text">
+                      Designed for Programmers 💻
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="merch-post-item">
+                <a>
+                  <figure class="merch-banner-box">
+                    <img
+                      src="./assets/img/coinleft-tee.jpg"
+                      alt="Coinleft's Merch"
+                      loading="lazy"
+                    />
+                  </figure>
+  
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Light mode</p>
+  
+                      <span class="dot"></span>
+  
+                      <time datetime="2023-11-11">Nov 11, 2023</time>
+                    </div>
+  
+                    <h3 class="h3 blog-item-title">Coinleft's Merch</h3>
+  
+                    <p class="blog-text">
+                      Designed for Gamers 🎮
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
